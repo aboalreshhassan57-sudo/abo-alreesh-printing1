@@ -1,2 +1,739 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aboalreshprint | أبو الريش برنت - جميع حلول الطباعة واللافتات</title>
+<meta name="description" content="Aboalreshprint - أبو الريش برنت: طباعة اللافتات، التيشرتات، المقات، كروت الأفراح، والمطبوعات التجارية بأعلى جودة وأسعار منافسة.">
+<link rel="canonical" href="https://aboalreshprint.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aboalreshprint">
+<meta property="og:title" content="Aboalreshprint | أبو الريش برنت - جميع حلول الطباعة واللافتات">
+<meta property="og:description" content="طباعة اللافتات، التيشرتات، المقات، كروت الأفراح، والمطبوعات التجارية بأعلى جودة وأسعار منافسة.">
+<meta property="og:url" content="https://aboalreshprint.com/">
+<meta property="og:locale" content="ar_AR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Aboalreshprint | أبو الريش برنت">
+<meta name="twitter:description" content="طباعة اللافتات، التيشرتات، المقات، كروت الأفراح، والمطبوعات التجارية بأعلى جودة وأسعار منافسة.">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PrintingBusiness",
+  "name": "Aboalreshprint",
+  "alternateName": "أبو الريش برنت",
+  "url": "https://aboalreshprint.com/",
+  "telephone": "+249904444526",
+  "email": "aboalreshhassan57@gmail.com",
+  "areaServed": "SD",
+  "sameAs": ["https://wa.me/249904444526"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800;900&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue-950:#061a30;
+    --blue-900:#0b2545;
+    --blue-800:#123566;
+    --blue-700:#1b478a;
+    --cyan:#06c2cf;
+    --cyan-dark:#039aa6;
+    --orange:#ff7a29;
+    --orange-dark:#e2600f;
+    --magenta:#e0218a;
+    --yellow:#ffcc29;
+    --white:#ffffff;
+    --gray-50:#f6f8fb;
+    --gray-100:#eef1f6;
+    --gray-300:#c9d2e0;
+    --ink:#0b1220;
+    --ink-soft:#48586f;
+    --radius:16px;
+    --shadow-lg:0 20px 50px -18px rgba(11,37,69,.35);
+    --shadow-sm:0 6px 18px -8px rgba(11,37,69,.18);
+    --font-display:'Cairo',sans-serif;
+    --font-body:'Tajawal',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:var(--font-body);
+    color:var(--ink);
+    background:var(--white);
+    line-height:1.7;
+    overflow-x:hidden;
+  }
+  img,svg{display:block;max-width:100%;}
+  a{text-decoration:none;color:inherit;}
+  ul{list-style:none;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;}
+  .container{width:100%;max-width:1240px;margin:0 auto;padding:0 24px;}
+  h1,h2,h3,h4{font-family:var(--font-display);font-weight:800;color:var(--blue-900);}
+  section{position:relative;}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:var(--font-display);font-weight:700;font-size:14px;
+    color:var(--orange-dark);letter-spacing:.5px;margin-bottom:14px;
+  }
+  .eyebrow::before{content:"";width:22px;height:3px;border-radius:3px;background:var(--orange);}
+
+  /* ===== Registration-mark divider (signature motif) ===== */
+  .reg-strip{
+    display:flex;align-items:center;justify-content:center;gap:26px;
+    padding:14px 0;background:var(--blue-950);
+  }
+  .reg-strip .dot{width:9px;height:9px;border-radius:50%;}
+  .reg-strip .cross{width:16px;height:16px;position:relative;opacity:.55;}
+  .reg-strip .cross::before,.reg-strip .cross::after{content:"";position:absolute;background:#8fa3c4;}
+  .reg-strip .cross::before{width:100%;height:1px;top:50%;left:0;}
+  .reg-strip .cross::after{height:100%;width:1px;left:50%;top:0;}
+  .reg-strip .ring{width:10px;height:10px;border-radius:50%;border:1px solid #8fa3c4;opacity:.6;}
+
+  /* ===== Header ===== */
+  header{
+    position:fixed;top:0;right:0;left:0;z-index:1000;
+    padding:16px 0;transition:.35s ease;
+  }
+  header.solid{
+    background:rgba(6,26,48,.92);backdrop-filter:blur(10px);
+    padding:10px 0;box-shadow:0 8px 24px -12px rgba(0,0,0,.4);
+  }
+  .nav-wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand-mark{width:40px;height:40px;flex-shrink:0;}
+  .brand-text{font-family:var(--font-display);font-weight:900;font-size:21px;color:var(--white);letter-spacing:.3px;}
+  .brand-text span{color:var(--cyan);}
+  nav.main-nav ul{display:flex;align-items:center;gap:34px;}
+  nav.main-nav a{
+    color:#dbe4f2;font-weight:500;font-size:15.5px;position:relative;padding:4px 0;
+    transition:.25s;
+  }
+  nav.main-nav a::after{
+    content:"";position:absolute;bottom:-3px;right:0;width:0;height:2px;background:var(--orange);
+    transition:.3s;
+  }
+  nav.main-nav a:hover{color:var(--white);}
+  nav.main-nav a:hover::after{width:100%;}
+  .header-actions{display:flex;align-items:center;gap:14px;}
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    font-family:var(--font-display);font-weight:700;font-size:15px;
+    padding:12px 26px;border-radius:999px;transition:.28s ease;white-space:nowrap;
+  }
+  .btn svg{width:18px;height:18px;flex-shrink:0;}
+  .btn-orange{background:var(--orange);color:var(--white);box-shadow:0 10px 24px -8px rgba(255,122,41,.55);}
+  .btn-orange:hover{background:var(--orange-dark);transform:translateY(-2px);}
+  .btn-outline{border:1.5px solid rgba(255,255,255,.55);color:var(--white);}
+  .btn-outline:hover{background:rgba(255,255,255,.12);}
+  .btn-whatsapp{background:#25d366;color:#053a1f;box-shadow:0 10px 24px -8px rgba(37,211,102,.55);}
+  .btn-whatsapp:hover{background:#1fb958;transform:translateY(-2px);}
+  .btn-navwa{
+    font-family:var(--font-display);font-weight:700;font-size:14.5px;
+    display:flex;align-items:center;gap:8px;color:var(--blue-950);
+    background:var(--cyan);padding:10px 20px;border-radius:999px;transition:.25s;
+  }
+  .btn-navwa:hover{background:#3fdbe6;}
+  .burger{display:none;width:26px;height:20px;position:relative;flex-direction:column;justify-content:space-between;}
+  .burger span{display:block;height:2px;width:100%;background:#fff;border-radius:2px;transition:.3s;}
+
+  /* ===== Hero ===== */
+  .hero{
+    padding:170px 0 110px;
+    background:
+      radial-gradient(circle at 18% 22%, rgba(6,194,207,.22), transparent 40%),
+      radial-gradient(circle at 85% 75%, rgba(255,122,41,.18), transparent 45%),
+      linear-gradient(160deg,var(--blue-950) 0%, var(--blue-900) 55%, var(--blue-800) 100%);
+    position:relative;overflow:hidden;
+  }
+  .hero::before{
+    content:"";position:absolute;inset:0;opacity:.10;
+    background-image:radial-gradient(#fff 1px, transparent 1px);
+    background-size:22px 22px;
+    mask-image:linear-gradient(to bottom, transparent, black 25%, black 75%, transparent);
+  }
+  .hero-grid{
+    display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;
+    position:relative;z-index:2;
+  }
+  .hero h1{
+    font-size:clamp(32px,4.2vw,50px);color:var(--white);line-height:1.32;margin-bottom:22px;
+  }
+  .hero h1 em{font-style:normal;color:var(--cyan);}
+  .hero p.lead{
+    color:#c3d1e6;font-size:18px;max-width:560px;margin-bottom:34px;font-weight:300;
+  }
+  .hero-ctas{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:38px;}
+  .hero-trust{display:flex;gap:26px;flex-wrap:wrap;}
+  .hero-trust .item{display:flex;align-items:center;gap:9px;color:#c3d1e6;font-size:14.5px;font-weight:500;}
+  .hero-trust svg{width:20px;height:20px;color:var(--cyan);flex-shrink:0;}
+
+  /* Hero collage */
+  .collage{position:relative;height:460px;}
+  .proof-frame{
+    position:absolute;inset:0;border:1.5px dashed rgba(255,255,255,.18);border-radius:22px;
+  }
+  .proof-frame::before,.proof-frame::after,
+  .collage .corner-tl,.collage .corner-br{
+    content:"";position:absolute;width:22px;height:22px;
+  }
+  .corner-mark{position:absolute;width:20px;height:20px;opacity:.65;}
+  .corner-mark::before,.corner-mark::after{content:"";position:absolute;background:var(--cyan);}
+  .corner-mark::before{width:100%;height:1.5px;top:50%;}
+  .corner-mark::after{height:100%;width:1.5px;left:50%;}
+  .corner-mark.tl{top:-4px;right:-4px;}
+  .corner-mark.br{bottom:-4px;left:-4px;}
+
+  .p-card{
+    position:absolute;width:220px;border-radius:18px;padding:20px;
+    box-shadow:var(--shadow-lg);color:#fff;
+  }
+  .p-card .p-icon{width:40px;height:40px;margin-bottom:14px;}
+  .p-card h4{color:#fff;font-size:16px;margin-bottom:4px;}
+  .p-card p{font-size:12.5px;color:rgba(255,255,255,.85);font-weight:300;}
+  .p-card.c1{background:linear-gradient(135deg,var(--orange),#ff9c5c);top:6%;right:2%;transform:rotate(-6deg);}
+  .p-card.c2{background:linear-gradient(135deg,var(--cyan),#3fe0ea);top:38%;right:32%;transform:rotate(4deg);z-index:3;}
+  .p-card.c3{background:linear-gradient(135deg,var(--blue-700),#2e5aa8);bottom:4%;right:6%;transform:rotate(3deg);}
+  .p-card.c4{background:linear-gradient(135deg,var(--magenta),#f2549e);bottom:12%;right:52%;transform:rotate(-4deg);width:190px;}
+
+  /* ===== Services ===== */
+  .services{padding:100px 0;background:var(--gray-50);}
+  .section-head{max-width:640px;margin-bottom:56px;}
+  .section-head h2{font-size:clamp(26px,3.2vw,38px);line-height:1.35;}
+  .section-head p{color:var(--ink-soft);font-size:16.5px;margin-top:14px;}
+  .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;}
+  .s-card{
+    background:var(--white);border-radius:var(--radius);padding:34px 28px;
+    box-shadow:var(--shadow-sm);border:1px solid var(--gray-100);
+    position:relative;overflow:hidden;transition:.35s ease;
+  }
+  .s-card::before{
+    content:"";position:absolute;top:0;right:0;left:0;height:4px;
+    background:linear-gradient(90deg,var(--cyan),var(--orange));
+    transform:scaleX(0);transform-origin:right;transition:.35s ease;
+  }
+  .s-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);}
+  .s-card:hover::before{transform:scaleX(1);}
+  .s-icon{
+    width:56px;height:56px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+    background:var(--blue-900);margin-bottom:20px;
+  }
+  .s-icon svg{width:28px;height:28px;color:var(--cyan);}
+  .s-card h3{font-size:19px;margin-bottom:10px;}
+  .s-card p{color:var(--ink-soft);font-size:15px;}
+
+  /* ===== Portfolio ===== */
+  .portfolio{padding:100px 0;background:var(--blue-950);color:#fff;}
+  .portfolio .section-head h2{color:#fff;}
+  .portfolio .section-head p{color:#a9b8d1;}
+  .filters{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px;}
+  .filter-btn{
+    padding:9px 22px;border-radius:999px;border:1px solid rgba(255,255,255,.22);
+    color:#cdd9ec;font-size:14.5px;font-weight:500;transition:.25s;
+  }
+  .filter-btn.active,.filter-btn:hover{background:var(--cyan);border-color:var(--cyan);color:var(--blue-950);font-weight:700;}
+  .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+  .g-item{
+    aspect-ratio:1/1.05;border-radius:14px;position:relative;overflow:hidden;
+    display:flex;align-items:flex-end;padding:18px;cursor:default;
+    transition:.4s ease;
+  }
+  .g-item .g-corner{position:absolute;width:16px;height:16px;opacity:.8;}
+  .g-item .g-corner::before,.g-item .g-corner::after{content:"";position:absolute;background:rgba(255,255,255,.65);}
+  .g-item .g-corner::before{width:100%;height:1.4px;top:50%;}
+  .g-item .g-corner::after{height:100%;width:1.4px;left:50%;}
+  .g-item .g-corner.tl{top:8px;right:8px;}
+  .g-item .g-corner.br{bottom:8px;left:8px;}
+  .g-item span.label{
+    position:relative;z-index:2;font-family:var(--font-display);font-weight:700;color:#fff;font-size:15px;
+  }
+  .g-item::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55),transparent 55%);}
+  .g-item:hover{transform:scale(1.03);}
+  .g1{background:linear-gradient(135deg,var(--orange),#c94e0a);}
+  .g2{background:linear-gradient(135deg,var(--cyan),#037884);}
+  .g3{background:linear-gradient(135deg,var(--magenta),#8f0f5c);}
+  .g4{background:linear-gradient(135deg,var(--blue-700),#0c2549);}
+  .g5{background:linear-gradient(135deg,var(--yellow),#c88f00);}
+  .g6{background:linear-gradient(135deg,#3fe0ea,var(--blue-800));}
+  .g7{background:linear-gradient(135deg,#ff9c5c,var(--magenta));}
+  .g8{background:linear-gradient(135deg,#5a7dc4,var(--blue-950));}
+
+  /* ===== Why choose us ===== */
+  .why{padding:100px 0;}
+  .why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;}
+  .w-card{text-align:center;padding:20px;}
+  .w-num{
+    width:78px;height:78px;border-radius:50%;margin:0 auto 22px;
+    display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,var(--cyan),var(--blue-800));
+    box-shadow:var(--shadow-sm);
+  }
+  .w-num svg{width:34px;height:34px;color:#fff;}
+  .w-card h3{font-size:19px;margin-bottom:10px;}
+  .w-card p{color:var(--ink-soft);font-size:15px;max-width:280px;margin:0 auto;}
+
+  /* ===== CTA banner ===== */
+  .cta-band{
+    margin:0 auto 100px;max-width:1240px;padding:0 24px;
+  }
+  .cta-inner{
+    background:linear-gradient(120deg,var(--orange) 0%, var(--magenta) 100%);
+    border-radius:26px;padding:56px 50px;display:flex;align-items:center;justify-content:space-between;
+    gap:30px;flex-wrap:wrap;position:relative;overflow:hidden;
+  }
+  .cta-inner::before{
+    content:"";position:absolute;inset:0;opacity:.15;
+    background-image:radial-gradient(#fff 1.5px, transparent 1.5px);background-size:18px 18px;
+  }
+  .cta-inner h3{color:#fff;font-size:clamp(22px,2.8vw,30px);position:relative;z-index:2;max-width:520px;}
+  .cta-actions{display:flex;gap:14px;position:relative;z-index:2;flex-wrap:wrap;}
+  .btn-white{background:#fff;color:var(--orange-dark);}
+  .btn-white:hover{background:#fff2ea;transform:translateY(-2px);}
+
+  /* ===== Footer ===== */
+  footer{background:var(--blue-950);color:#c3d1e6;padding:70px 0 0;}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px;padding-bottom:50px;}
+  .foot-brand .brand-text{font-size:22px;}
+  .foot-brand p{margin-top:16px;font-size:14.5px;color:#93a5c4;max-width:280px;}
+  .foot-social{display:flex;gap:12px;margin-top:20px;}
+  .foot-social a{
+    width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.08);
+    display:flex;align-items:center;justify-content:center;transition:.25s;
+  }
+  .foot-social a:hover{background:var(--cyan);}
+  .foot-social svg{width:18px;height:18px;color:#fff;}
+  footer h4{color:#fff;font-family:var(--font-display);font-size:16.5px;margin-bottom:20px;}
+  footer ul li{margin-bottom:12px;}
+  footer ul a{font-size:14.5px;color:#a9b8d1;transition:.2s;}
+  footer ul a:hover{color:var(--cyan);}
+  .foot-contact li{display:flex;align-items:flex-start;gap:10px;font-size:14.5px;color:#a9b8d1;}
+  .foot-contact svg{width:18px;height:18px;color:var(--cyan);flex-shrink:0;margin-top:2px;}
+  .foot-bottom{
+    border-top:1px solid rgba(255,255,255,.08);padding:22px 0;
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+    font-size:13.5px;color:#7f92b3;
+  }
+
+  /* ===== Floating WhatsApp ===== */
+  .wa-float{
+    position:fixed;bottom:26px;right:26px;z-index:999;
+    width:60px;height:60px;border-radius:50%;background:#25d366;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 12px 28px -8px rgba(37,211,102,.6);
+  }
+  .wa-float svg{width:30px;height:30px;color:#fff;}
+  .wa-float::before{
+    content:"";position:absolute;inset:0;border-radius:50%;background:#25d366;
+    animation:pulse 2.2s infinite;z-index:-1;
+  }
+  @keyframes pulse{
+    0%{transform:scale(1);opacity:.55;}
+    100%{transform:scale(1.9);opacity:0;}
+  }
+
+  /* ===== Reveal animation ===== */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in{opacity:1;transform:translateY(0);}
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .reveal{opacity:1;transform:none;transition:none;}
+    .wa-float::before{animation:none;}
+  }
+
+  /* ===== Responsive ===== */
+  @media (max-width:1080px){
+    .services-grid{grid-template-columns:repeat(2,1fr);}
+    .gallery{grid-template-columns:repeat(3,1fr);}
+    .why-grid{grid-template-columns:repeat(3,1fr);}
+    .foot-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:900px){
+    .hero-grid{grid-template-columns:1fr;}
+    .collage{height:380px;order:-1;}
+    nav.main-nav{
+      position:fixed;top:0;bottom:0;left:0;width:78%;max-width:320px;
+      background:var(--blue-950);padding:110px 30px 30px;
+      transform:translateX(-105%);transition:.4s ease;box-shadow:20px 0 40px rgba(0,0,0,.3);
+    }
+    nav.main-nav.open{transform:translateX(0);}
+    nav.main-nav ul{flex-direction:column;align-items:flex-start;gap:26px;}
+    .burger{display:flex;}
+    .btn-navwa{display:none;}
+  }
+  @media (max-width:720px){
+    .services-grid{grid-template-columns:1fr;}
+    .gallery{grid-template-columns:repeat(2,1fr);}
+    .why-grid{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr;gap:34px;}
+    .cta-inner{padding:40px 26px;flex-direction:column;text-align:center;}
+    .p-card{width:170px;padding:14px;}
+    .p-card.c4{width:150px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="siteHeader">
+  <div class="container nav-wrap">
+    <a href="#home" class="brand">
+      <svg class="brand-mark" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="23" stroke="#06c2cf" stroke-width="1.4" opacity=".5"/>
+        <path d="M14 32 L30 16" stroke="#ff7a29" stroke-width="3" stroke-linecap="round"/>
+        <path d="M30 16 L34 12 L36 14 L32 18 Z" fill="#06c2cf"/>
+        <circle cx="14" cy="32" r="2.3" fill="#ff7a29"/>
+      </svg>
+      <span class="brand-text">Aboalresh<span>print</span></span>
+    </a>
+
+    <button class="burger" id="burgerBtn" aria-label="فتح القائمة">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#home" class="nav-link">الرئيسية</a></li>
+        <li><a href="#services" class="nav-link">خدماتنا</a></li>
+        <li><a href="#portfolio" class="nav-link">معرض الأعمال</a></li>
+        <li><a href="#about" class="nav-link">من نحن</a></li>
+        <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="https://wa.me/249904444526" target="_blank" class="btn-navwa">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.34 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.1c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.1.11-1.78-.11-.41-.13-.93-.3-1.6-.58-2.83-1.22-4.68-4.06-4.82-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.51-.1.19-.15.3-.29.47-.15.16-.31.36-.44.48-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.15.47.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.24.66-.14.27.09 1.71.81 2 .96.29.15.48.22.55.35.07.13.07.72-.17 1.4Z"/></svg>
+        واتساب
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal in">
+      <div class="eyebrow" style="color:#7de6ee">مطبعة أبو الريش</div>
+      <h1>جميع حلول الطباعة واللافتات <em>في مكان واحد</em> مع Aboalreshprint</h1>
+      <p class="lead">نقدم أحدث خدمات طباعة اللافتات الإعلانية، التيشرتات، الأكواب (المقات)، كروت الأفراح، وجميع المطبوعات بجودة عالية وأسعار منافسة.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-orange">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          اطلب تصميمك الآن
+        </a>
+        <a href="https://wa.me/249904444526" target="_blank" class="btn btn-whatsapp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.34 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.1c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.1.11-1.78-.11-.41-.13-.93-.3-1.6-.58-2.83-1.22-4.68-4.06-4.82-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.51-.1.19-.15.3-.29.47-.15.16-.31.36-.44.48-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.15.47.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.24.66-.14.27.09 1.71.81 2 .96.29.15.48.22.55.35.07.13.07.72-.17 1.4Z"/></svg>
+          تواصل عبر الواتساب
+        </a>
+      </div>
+      <div class="hero-trust">
+        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> دقة عالية في الألوان</div>
+        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> التزام بالمواعيد</div>
+        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> أسعار منافسة</div>
+      </div>
+    </div>
+
+    <div class="collage reveal in">
+      <div class="proof-frame"></div>
+      <span class="corner-mark tl"></span>
+      <span class="corner-mark br"></span>
+
+      <div class="p-card c1">
+        <svg class="p-icon" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><path d="M4 4h4l4 3 4-3h4v4l-3 3 3 3v6H4v-6l3-3-3-3V4Z" stroke-linejoin="round"/></svg>
+        <h4>تيشرتات مطبوعة</h4>
+        <p>طباعة حرارية وديجيتال</p>
+      </div>
+      <div class="p-card c2">
+        <svg class="p-icon" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><path d="M4 5h11v13a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V5Z"/><path d="M15 8h2a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3h-2"/></svg>
+        <h4>مقات وهدايا</h4>
+        <p>تصميم وطباعة فاخرة</p>
+      </div>
+      <div class="p-card c3">
+        <svg class="p-icon" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        <h4>لافتات وبنرات</h4>
+        <p>مقاومة للعوامل الجوية</p>
+      </div>
+      <div class="p-card c4">
+        <svg class="p-icon" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 8v8l9 5 9-5V8"/></svg>
+        <h4>كروت أفراح</h4>
+        <p>تصاميم فاخرة ومجسمة</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="reg-strip">
+  <span class="cross"></span>
+  <span class="dot" style="background:var(--cyan)"></span>
+  <span class="dot" style="background:var(--magenta)"></span>
+  <span class="dot" style="background:var(--yellow)"></span>
+  <span class="ring"></span>
+  <span class="cross"></span>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">خدماتنا المميزة</div>
+      <h2>كل ما تحتاجه من طباعة — تحت سقف واحد</h2>
+      <p>من اللافتات الضخمة إلى أصغر بطاقة عمل، نغطي جميع احتياجاتك الطباعية بخبرة ودقة عالية.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="s-card reveal">
+        <div class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h4M6 14h7"/></svg></div>
+        <h3>طباعة اللافتات والإعلانات</h3>
+        <p>لافتات تجارية، بنرات، وفلكس بأعلى جودة ومقاومة للعوامل الجوية، مناسبة للمحلات والمعارض والفعاليات.</p>
+      </div>
+      <div class="s-card reveal">
+        <div class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h4l4 3 4-3h4v4l-3 3 3 3v6H4v-6l3-3-3-3V4Z"/></svg></div>
+        <h3>الطباعة على الملابس والتيشرتات</h3>
+        <p>طباعة حرارية وديجيتال عالية الدقة للشركات والأفراد، مثالية للفرق والفعاليات والهدايا الترويجية.</p>
+      </div>
+      <div class="s-card reveal">
+        <div class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 5h11v13a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V5Z"/><path d="M15 8h2a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3h-2"/></svg></div>
+        <h3>الطباعة على المقات والهدايا</h3>
+        <p>تصميم وطباعة المقات، الأجندات، والدروع التذكارية بجودة ألوان ثابتة ولمسة احترافية.</p>
+      </div>
+      <div class="s-card reveal">
+        <div class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="M3 8v8l9 5 9-5V8"/></svg></div>
+        <h3>كروت الأفراح والمناسبات</h3>
+        <p>تصاميم فاخرة وطباعة حرارية ومجسمة لجميع المناسبات، تليق بأهم لحظاتكم الخاصة.</p>
+      </div>
+      <div class="s-card reveal">
+        <div class="s-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg></div>
+        <h3>المطبوعات الورقية والدعاية</h3>
+        <p>كروت شخصية، بروشورات، أظرف، وفواتير — هوية بصرية متكاملة لعملك بأعلى معايير الطباعة.</p>
+      </div>
+      <div class="s-card reveal" style="background:linear-gradient(135deg,var(--blue-900),var(--blue-800));">
+        <div class="s-icon" style="background:rgba(255,255,255,.12)"><svg viewBox="0 0 24 24" fill="none" stroke="#06c2cf" stroke-width="1.7"><path d="M12 2v20M2 12h20"/></svg></div>
+        <h3 style="color:#fff">لديك فكرة خاصة؟</h3>
+        <p style="color:#c3d1e6">تواصل معنا وسنساعدك في تصميم وتنفيذ مطبوعاتك المخصصة من الصفر.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="color:#7de6ee">معرض الأعمال</div>
+      <h2>نماذج من أعمالنا الفعلية</h2>
+      <p>لمحة من مشاريعنا المطبوعة لعملائنا في مختلف المجالات.</p>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">الكل</button>
+      <button class="filter-btn" data-filter="shirt">تيشرتات</button>
+      <button class="filter-btn" data-filter="mug">مقات</button>
+      <button class="filter-btn" data-filter="sign">لافتات</button>
+      <button class="filter-btn" data-filter="card">كروت أفراح</button>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="g-item g1" data-cat="shirt"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">طباعة تيشرت</span></div>
+      <div class="g-item g2" data-cat="mug"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">طباعة مج</span></div>
+      <div class="g-item g3" data-cat="card"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">كرت فرح فاخر</span></div>
+      <div class="g-item g4" data-cat="sign"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">لافتة إنارة</span></div>
+      <div class="g-item g5" data-cat="mug"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">مج بتصميم مخصص</span></div>
+      <div class="g-item g6" data-cat="sign"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">بنر إعلاني</span></div>
+      <div class="g-item g7" data-cat="shirt"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">تيشرت فريق</span></div>
+      <div class="g-item g8" data-cat="card"><span class="g-corner tl"></span><span class="g-corner br"></span><span class="label">دعوة مناسبة</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="reg-strip">
+  <span class="cross"></span>
+  <span class="dot" style="background:var(--cyan)"></span>
+  <span class="dot" style="background:var(--magenta)"></span>
+  <span class="dot" style="background:var(--yellow)"></span>
+  <span class="ring"></span>
+  <span class="cross"></span>
+</div>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="why" id="about">
+  <div class="container">
+    <div class="section-head reveal" style="margin-left:auto;margin-right:auto;text-align:center;">
+      <div class="eyebrow" style="justify-content:center;">لماذا Aboalreshprint</div>
+      <h2>لماذا تختار Aboalreshprint؟</h2>
+    </div>
+    <div class="why-grid">
+      <div class="w-card reveal">
+        <div class="w-num"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg></div>
+        <h3>دقة عالية في الألوان والطباعة</h3>
+        <p>معايرة ألوان دقيقة وخامات مختارة بعناية لضمان نتيجة مطابقة للتصميم في كل مرة.</p>
+      </div>
+      <div class="w-card reveal">
+        <div class="w-num"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+        <h3>سرعة التنفيذ والالتزام بالمواعيد</h3>
+        <p>فريق عمل منظم يسلّم طلبك في الوقت المتفق عليه دون تأخير أو مفاجآت.</p>
+      </div>
+      <div class="w-card reveal">
+        <div class="w-num"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M12 3v18M7 8l10 8M17 8 7 16"/></svg></div>
+        <h3>أسعار تنافسية وخامات ممتازة</h3>
+        <p>جودة طباعة عالية بأسعار مدروسة تناسب الأفراد والشركات على حد سواء.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<div class="cta-band">
+  <div class="cta-inner reveal">
+    <h3>جاهز تبدأ مشروعك الطباعي؟ راسلنا الآن وخلّي تصميمك بين أيادي أمينة</h3>
+    <div class="cta-actions">
+      <a href="https://wa.me/249904444526" target="_blank" class="btn btn-white">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.34 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.1c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.1.11-1.78-.11-.41-.13-.93-.3-1.6-.58-2.83-1.22-4.68-4.06-4.82-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.51-.1.19-.15.3-.29.47-.15.16-.31.36-.44.48-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.15.47.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.24.66-.14.27.09 1.71.81 2 .96.29.15.48.22.55.35.07.13.07.72-.17 1.4Z"/></svg>
+        تواصل عبر الواتساب
+      </a>
+      <a href="mailto:aboalreshhassan57@gmail.com" class="btn btn-outline" style="border-color:rgba(255,255,255,.6)">
+        راسلنا بالإيميل
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer id="contact">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#home" class="brand">
+          <svg class="brand-mark" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="23" stroke="#06c2cf" stroke-width="1.4" opacity=".5"/>
+            <path d="M14 32 L30 16" stroke="#ff7a29" stroke-width="3" stroke-linecap="round"/>
+            <path d="M30 16 L34 12 L36 14 L32 18 Z" fill="#06c2cf"/>
+            <circle cx="14" cy="32" r="2.3" fill="#ff7a29"/>
+          </svg>
+          <span class="brand-text">Aboalresh<span>print</span></span>
+        </a>
+        <p>مطبعة أبو الريش — شريكك الموثوق لجميع حلول الطباعة واللافتات، بجودة عالية وأسعار منافسة.</p>
+        <div class="foot-social">
+          <a href="https://wa.me/249904444526" target="_blank" aria-label="واتساب">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.34 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Z"/></svg>
+          </a>
+          <a href="mailto:aboalreshhassan57@gmail.com" aria-label="إيميل">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#services">خدماتنا</a></li>
+          <li><a href="#portfolio">معرض الأعمال</a></li>
+          <li><a href="#about">من نحن</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>خدماتنا</h4>
+        <ul>
+          <li><a href="#services">اللافتات والإعلانات</a></li>
+          <li><a href="#services">تيشرتات وملابس</a></li>
+          <li><a href="#services">مقات وهدايا</a></li>
+          <li><a href="#services">كروت أفراح</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>تواصل معنا</h4>
+        <ul class="foot-contact">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            <span>+249 904 444 526</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            <span>aboalreshhassan57@gmail.com</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>السودان</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="reg-strip" style="background:transparent;padding:0 0 20px;">
+      <span class="cross"></span>
+      <span class="dot" style="background:var(--cyan)"></span>
+      <span class="dot" style="background:var(--orange)"></span>
+      <span class="ring"></span>
+      <span class="cross"></span>
+    </div>
+
+    <div class="foot-bottom">
+      <span>جميع الحقوق محفوظة لـ Aboalreshprint © 2026</span>
+      <span>تصميم وتطوير بروح الطباعة والإبداع</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Floating WhatsApp ===== -->
+<a href="https://wa.me/249904444526" target="_blank" class="wa-float" aria-label="تواصل عبر واتساب">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.34 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.1c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.1.11-1.78-.11-.41-.13-.93-.3-1.6-.58-2.83-1.22-4.68-4.06-4.82-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.51-.1.19-.15.3-.29.47-.15.16-.31.36-.44.48-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.36 1.46.3.15.47.13.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.24.66-.14.27.09 1.71.81 2 .96.29.15.48.22.55.35.07.13.07.72-.17 1.4Z"/></svg>
+</a>
+
+<script>
+  // Sticky header on scroll
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('solid', window.scrollY > 40);
+  });
+
+  // Mobile nav toggle
+  const burger = document.getElementById('burgerBtn');
+  const mainNav = document.getElementById('mainNav');
+  burger.addEventListener('click', () => {
+    mainNav.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => mainNav.classList.remove('open'));
+  });
+
+  // Portfolio filter
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.g-item');
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      galleryItems.forEach(item => {
+        const show = filter === 'all' || item.dataset.cat === filter;
+        item.style.display = show ? 'flex' : 'none';
+      });
+    });
+  });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+</body>
+</html>
 # abo-alreesh-printing1
 Aboalreshprint3
